@@ -1,0 +1,423 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 18px;
+    line-height: 28px;
+    color: #3E3E3E;
+    font-family: 'Poppins', sans-serif;
+    margin: 15px 0;
+    margin-bottom: 35px;
+}
+
+a {
+    color: #ffffff;
+    padding: 13px 35px;
+    border-radius: 5px;
+    text-decoration: none;
+    background: #FF5959;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------------------------
+---------------Hero Section Start-------------- */
+#hero-section {
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    padding: 7%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* -----------hero left column start---------- */
+.hero-left-col {
+    width: 50%;
+    padding: 5%;
+    padding-top: 15%;
+}
+
+.red-line {
+    position: relative;
+    padding-left: 5%;
+}
+
+.red-line h1 {
+    font-size: 60px;
+    color: #333333;
+    line-height: 80px;
+    font-family: 'Yeseva One', cursive;
+}
+
+.red-line h1 span {
+    color: #FFAD5A;
+}
+
+.red-line::before {
+    content: '';
+    width: 4px;
+    height: 77%;
+    border-radius: 50px;
+    background: #FF5959;
+    position: absolute;
+    left: 0;
+    top: 12%;
+}
+
+.more-paragarph {
+    margin-top: 45px;
+}
+
+/* -----------hero left column end------------ */
+/* -----------hero right column start---------- */
+.hero-right-col {
+    width: 50%;
+    padding: 9%;
+}
+
+.hero-right-col img {
+    width: 100%;
+    height: 100%;
+}
+
+/* -----------hero right column end----------- */
+/* ----------------------------------------------
+---------------Hero Section Start-------------- */
+
+
+
+
+
+
+
+/* ----------------------------------------------
+------------My Mission Section Start----------- */
+#myMission-section {
+    width: 100%;
+    padding: 3% 11%;
+}
+
+#myMission-section h1 {
+    font-size: 48px;
+    color: #13103A;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#myMission-section h1 span {
+    color: #FFAD5A;
+}
+
+.myMission-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 5% 0;
+    justify-content: space-between;
+}
+
+.myMission-container .mission {
+    background: rgba(79, 157, 166, 0.1);
+    ;
+}
+
+.myMission-container .vission {
+    background: rgba(255, 89, 89, 0.1);
+    ;
+}
+
+.myMission-container .goales {
+    background: #FFF4D6;
+}
+
+.myMission-container .myMission-card {
+    width: 32%;
+    height: 375px;
+    border-radius: 26px;
+    padding: 25px;
+}
+
+.myMission-container .myMission-card img {
+    width: 141px;
+    height: 141px;
+
+}
+
+.myMission-container .myMission-card h2 {
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ----------------------------------------------
+-------------My Mission Section End------------ */
+
+
+
+
+
+
+/* ----------------------------------------------
+------------Developer Section Start------------ */
+#develop-section {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+/* ---------Develop Left Columnn Start--------- */
+.devlop-left-col {
+    width: 40%;
+    position: relative;
+}
+
+.devlop-left-col img {
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+}
+
+.devlop-left-col img:nth-child(2) {
+    width: 220px;
+    height: 220px;
+    position: absolute;
+    top: 15%;
+    left: -20%;
+    z-index: -1;
+}
+
+.devlop-left-col img:nth-child(3) {
+    width: 270px;
+    height: 120px;
+    position: absolute;
+    bottom: 0;
+    left: -63%;
+    z-index: -1;
+}
+
+/* ---------Develop Left Columnn End----------- */
+/* ---------Develop Right Columnn Start-------- */
+.develop-right-col {
+    width: 58%;
+    position: relative;
+}
+
+.develop-right-col h1 {
+    font-size: 36px;
+    color: #333333;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.develop-right-col img {
+    width: 308px;
+    height: 150px;
+    position: absolute;
+    top: -70%;
+    right: -47%;
+}
+
+/* ---------Develop Right Columnn End---------- */
+/* ----------------------------------------------
+-------------Developer Section End------------- */
+
+
+
+
+
+
+
+
+/* ----------------------------------------------
+------------Project Section Start------------ */
+#project-section {
+    width: 100%;
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    margin-bottom: 40px;
+}
+
+/* ---------ProjectLeft Columnn Start--------- */
+.project-left-col {
+    width: 58%;
+    position: relative;
+}
+
+.project-left-col h1 {
+    font-size: 36px;
+    color: #333333;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+.project-left-col img {
+    width: 308px;
+    height: 150px;
+    position: absolute;
+    top: -70%;
+    right: -47%;
+}
+
+/* ---------Project Left Columnn End----------- */
+/* ---------Project Right Columnn Start-------- */
+.project-right-col {
+    width: 40%;
+    position: relative;
+    padding-left: 7%;
+}
+
+.project-right-col img {
+    width: 500px;
+    height: 500px;
+    z-index: 2;
+}
+
+.project-right-col img:nth-child(2) {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: -16%;
+    right: -15%;
+    z-index: -1;
+}
+
+/* ---------Project Right Columnn End---------- */
+/* -----------------------------------------------
+--------------Project Section End--------------- */
+
+
+
+
+
+
+/* -----------------------------------------------
+----------Exppore Knowledge Section Start--------- */
+
+#exploreKnowledge-section {
+    width: 100%;
+    padding: 0 10%;
+}
+
+#exploreKnowledge-section h1 {
+    font-size: 48px;
+    color: #13103A;
+    font-weight: bold;
+    line-height: 70px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+
+#exploreKnowledge-section span {
+    color: #FFAD5A;
+}
+
+.exploreKnowledge-contaier {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* ----explore knowredge left column start----- */
+.exploreKnowledge-left-col {
+    width: 40%;
+    padding: 5%;
+    position: relative;
+}
+
+.exploreKnowledge-left-col img {
+    width: 100%;
+    height: 100%;
+}
+
+.exploreKnowledge-left-col img:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    z-index: -1;
+}
+
+/* ----explore knowredge left column End------- */
+/* ----explore knowredge Right column start---- */
+
+.exploreKnowledge-right-col {
+    width: 55%;
+}
+
+.exploreKnowledge-right-col h2 {
+    font-size: 36px;
+    color: #333333;
+    line-height: 54px;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+
+/* -----explore knowredge Right column End----- */
+/* -----------------------------------------------
+----------Shere Knowledge Section End----------- */
+
+
+
+
+
+/* -----------------------------------------------
+--------------Footer Section End---------------- */
+footer {
+    width: 100%;
+    height: 177px;
+    background: #000;
+    position: static;
+    text-align: center;
+    padding: 50px 0;
+}
+
+footer h1 {
+    font-size: 36px;
+    line-height: 44px;
+    font-weight: 400;
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    letter-spacing: 0.5px;
+}
+
+footer h1 span {
+    color: #FF5959;
+}
+
+footer p {
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #8e99bd;
+}
+
+/* -----------------------------------------------
+--------------Footer Section End---------------- */
